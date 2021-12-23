@@ -1,4 +1,5 @@
 * {
+    font-family: 'Roboto';
     padding: 0;
     margin: 0;
 }
@@ -12,7 +13,6 @@
 }
 
 .header .header-logo {
-    font-family: 'Roboto';
     font-size: 24px;
     font-weight: bold;
     color: #F9FaF8;
@@ -29,7 +29,97 @@
 
 .header a {
     color: #E5E7EB;
-    font-family: 'Roboto';
     font-size: 18px;
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 100px 200px;
+}
+
+.hero .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    padding-right: 100px;
+    color: #F9FAF8;
+}
+
+.hero .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 100px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FaF8;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+.hero img {
+    flex-shrink: 0;
+    color: white;
+    background-color: gray;
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    line-height: 200px;
+}
+
+.info-header {
+    font-size: 36px;
+    text-align: center;
+    padding: 35px;
+    font-weight: bold;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.info-container .info {
+    width: 150px;
+}
+
+.info-container .info .icon {
+    width: auto;
+    height: 150px;
+    border: #3882F6 3px solid;
+    border-radius: 15px;
+}
+
+.info-container .text {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.quote-container .quote {
+    width: 50%;
+    padding-left: 25%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-container .quote-author {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 25%;
 }
