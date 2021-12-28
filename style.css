@@ -123,3 +123,37 @@
     font-weight: bold;
     padding-right: 25%;
 }
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.call-to-action .text {
+    color: white;
+}
+
+.call-to-action .text .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action button {
+    border: white solid 2px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 0 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: white;
+}
